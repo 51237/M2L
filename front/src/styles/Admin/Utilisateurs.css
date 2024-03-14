@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    grid-column: 1 / span 2;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.user-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-email {
+    color: #888;
+}
+
+.delete-button {
+
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #bd2130;
+}
+
+.delete-button:active {
+    background-color: #88222c;
+}
+

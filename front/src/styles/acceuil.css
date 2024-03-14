@@ -1,0 +1,20 @@
+img {
+    width: 500px;
+}
+
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18px;
+}
+
+h2 {
+    color: black;
+}
+
+li {
+    color: black;
+    font-size: 20px;
+    list-style: none;
+}
+
